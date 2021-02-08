@@ -101,13 +101,13 @@ export default {
       .ivu-tabs-tab {
         width: 50%;
         text-align: center;
-        // font-size: 1vh;
+        font-size:  @font-four-level;
       }
     }
   }
 
   .text {
-    font-size: 1vh;
+    font-size:  @font-four-level;
     line-height: 1;
     margin: 1vh 0;
 

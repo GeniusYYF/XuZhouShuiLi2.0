@@ -25,7 +25,7 @@ export default {};
   padding: 5px 0 0;
   background-color: rgb(51, 71, 80);
   color: rgba(228, 227, 227, 0.7);
-  font-size: 1.5vh;
+  font-size: @footer-font-size;
   div {
     line-height: 2;
   }

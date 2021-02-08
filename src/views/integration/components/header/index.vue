@@ -119,7 +119,7 @@ export default {
       // 字体
       .text {
         font-family: "YouSheBiaoTiHei";
-        font-size: 4.2vh;
+        font-size: @header-title-font-size;
         color: rgb(0, 146, 215);
         // vertical-align: 50%;
         vertical-align: middle;
@@ -164,7 +164,7 @@ export default {
       span {
         font-family: "PingFangBold";
         line-height: 1.5;
-        font-size: 2vh;
+        font-size: @header-font-size;
         vertical-align: middle;
         display: inline-block;
       }
@@ -175,7 +175,7 @@ export default {
       text-align: center;
       .header-icon {
         color: @theme-blue;
-        font-size: 3vh;
+        font-size: @header-icon-font-size;
         // vertical-align: 50%;
         margin-right: 1vw;
         vertical-align: middle;

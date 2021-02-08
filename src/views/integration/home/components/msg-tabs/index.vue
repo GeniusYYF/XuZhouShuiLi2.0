@@ -68,7 +68,7 @@ export default {
     // margin-bottom: 0;
 
     .ivu-tabs-nav {
-      font-size: 2vh;
+      font-size: @font-one-level;
       color: @theme-black;
       width: 100%;
 
@@ -147,7 +147,7 @@ export default {
       }
     }
     .col-1 {
-      font-size: 1.8vh;
+      font-size: @font-two-level;
       width: 75%;
       margin-left: 5%;
       text-align: left;
@@ -157,7 +157,7 @@ export default {
       border-bottom: 1px dashed rgb(216, 216, 216);
     }
     .col-2 {
-      font-size: 1.6vh;
+      font-size: @font-three-level;
       width: 20%;
       text-align: center;
       border-bottom: 1px dashed rgb(216, 216, 216);

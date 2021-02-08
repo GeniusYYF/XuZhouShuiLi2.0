@@ -60,14 +60,14 @@ export default {
 <style lang="less" scoped>
 .temp2 {
   .select-date-font {
-    font-size: 1.4vh;
+    font-size: @font-four-level;
   }
 
   .radio {
     width: 100%;
     margin: 5px 0;
     .ivu-radio-group-item {
-      font-size: 1.4vh;
+      font-size: @font-four-level;
     }
   }
 
@@ -80,7 +80,7 @@ export default {
         .ivu-tabs-tab {
           width: 50%;
           text-align: center;
-          // font-size: 1vh;
+          font-size: @font-three-level;
         }
       }
     }

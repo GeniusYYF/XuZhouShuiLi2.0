@@ -171,7 +171,7 @@ export default {
       span {
         font-family: "PingFangBold";
         line-height: 1.5;
-        font-size: 2vh;
+        font-size: @header-font-size;
         vertical-align: middle;
         display: inline-block;
       }

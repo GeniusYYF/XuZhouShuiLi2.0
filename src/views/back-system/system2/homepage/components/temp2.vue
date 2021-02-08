@@ -66,6 +66,7 @@ export default {
   }
   .sum {
     margin-left: 50px;
+    white-space: nowrap;
   }
 }
 

@@ -65,7 +65,7 @@ export default {
         text-align: left;
         padding-bottom: 0;
         border: none;
-        font-size: 2vh;
+        font-size: @card-font-size;
         // font-weight: 700;
         font-family: "PingFangTeCuTi";
       }
@@ -73,7 +73,7 @@ export default {
         line-height: 1;
         a {
           color: #86888c;
-          font-size: 1vh;
+          font-size: @font-four-level;
         }
       }
     }

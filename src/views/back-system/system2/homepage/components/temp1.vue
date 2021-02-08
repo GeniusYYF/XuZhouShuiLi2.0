@@ -72,6 +72,7 @@ export default {
   }
   .sum {
     margin-left: 30px;
+    white-space: nowrap;
   }
 }
 .right {

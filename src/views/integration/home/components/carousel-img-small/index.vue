@@ -71,7 +71,7 @@ export default {
     line-height: 50px;
     position: relative;
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: @font-four-level;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 1vw;

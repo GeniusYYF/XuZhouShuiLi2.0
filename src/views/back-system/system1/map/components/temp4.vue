@@ -427,7 +427,7 @@ export default {
 
     .tips {
       width: 50%;
-      font-size: 1vh;
+      font-size: @font-four-level;
       line-height: 1;
       vertical-align: middle;
 
@@ -505,7 +505,7 @@ export default {
           font-family: "PingFangBold";
         }
         .span {
-          font-size: 1vh;
+          font-size: @font-four-level;
           width: 33%;
           display: inline-block;
 
@@ -540,7 +540,7 @@ export default {
 
     .text {
       padding: 0.5vh 0;
-      font-size: 1vh;
+      font-size: @font-four-level;
       line-height: 1;
       margin: 1vh 0;
 

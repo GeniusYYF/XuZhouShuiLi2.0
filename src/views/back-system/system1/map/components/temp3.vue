@@ -48,7 +48,7 @@ export default {
 <style lang="less" scoped>
 .temp3 {
   .text {
-    font-size: 1.4vh;
+    font-size: @font-four-level;
     line-height: 1;
     div {
       width: 50%;
@@ -76,7 +76,7 @@ export default {
         .ivu-tabs-tab {
           width: 50%;
           text-align: center;
-          // font-size: 1vh;
+           font-size: @font-three-level;
         }
       }
     }

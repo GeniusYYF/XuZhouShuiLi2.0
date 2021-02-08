@@ -85,7 +85,7 @@ export default {
 
   /deep/ .ivu-menu-submenu-title,
   /deep/ .ivu-menu-item {
-    font-size: 2vh;
+    font-size: @sider-font-size;
     // font-family: "PingFangBold";
     // font-weight: 700;
     padding-top: @space;

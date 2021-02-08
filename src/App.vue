@@ -1,10 +1,3 @@
-<!--
- * @Author: 杨云峰
- * @Date: 2020-12-31 09:32:37
- * @LastEditTime: 2021-02-08 11:12:00
- * @LastEditors: 杨云峰
- * @Description: 
--->
 <template>
   <div id="app">
     <router-view />
@@ -14,9 +7,9 @@
 <style lang="less">
 // @import url("../public/css/common.less"); 已在插件中引入 - 这也可以使用其全局变量
 
-*{
-  font-family: "微软雅黑";
-}
+// *{
+//   font-family: "微软雅黑";
+// }
 
 #app {
   // font-family: Avenir, Helvetica, Arial, sans-serif;

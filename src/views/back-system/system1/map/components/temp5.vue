@@ -47,7 +47,7 @@ export default {
   text-align: center;
 
   span {
-    font-size: 1.4vh;
+    font-size: @font-four-level;
     color: #5c6268;
     white-space: nowrap;
   }

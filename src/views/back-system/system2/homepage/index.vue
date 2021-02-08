@@ -67,7 +67,7 @@ export default {
         text-align: left;
         padding-bottom: 0;
         border: none;
-        font-size: 1.9vh;
+        font-size: @card-font-size;
         // font-weight: 700;
         font-family: "PingFangTeCuTi";
       }

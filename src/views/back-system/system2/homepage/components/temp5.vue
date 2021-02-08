@@ -97,7 +97,7 @@ export default {
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
-      font-size: 1.8vh;
+      font-size: @font-two-level;
       color: #282d30;
       vertical-align: middle;
 
@@ -110,13 +110,13 @@ export default {
       width: 15%;
       margin-left: 5%;
       display: inline-block;
-      font-size: 1.6vh;
+      font-size: @font-three-level;
       color: #999999;
       text-align: right;
     }
     .desc {
       padding-left: 20%;
-      font-size: 1.6vh;
+      font-size: @font-three-level;
       color: #999999;
     }
   }

@@ -38,7 +38,7 @@ export default {
 <style lang="less" scoped>
 .titles {
   // margin-top: -100px;
-  height: 100px;
+  // height: 100px;
   // background-color: rgba(0, 0, 0, 0.5);
   background-color: black;
   padding: 12px 10px;
@@ -56,6 +56,10 @@ export default {
     max-width: 9.09090909%;
     // 自定义
     line-height: 1;
+    
+    .img{
+      width: 6.2vh;
+    }
 
     &:hover {
       cursor: pointer;
@@ -71,7 +75,7 @@ export default {
 
     .title {
       color: rgb(255, 255, 255);
-      font-size: 16px; // 与图片一齐固定大小
+      font-size: 1.8vh; // 与图片一齐固定大小
     }
   }
 }
