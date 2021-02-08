@@ -40,7 +40,7 @@ export default {
   // margin-top: -100px;
   // height: 100px;
   // background-color: rgba(0, 0, 0, 0.5);
-  background-color: black;
+  background-color: #515a6e; // #2db7f5 #5cadff #2b85e4 #2d8cf0  19be6b 515a6e 808695 17233d c5c8ce
   padding: 12px 10px;
   position: relative; // 防止被图片的relative覆盖背景色
 
@@ -56,8 +56,11 @@ export default {
     max-width: 9.09090909%;
     // 自定义
     line-height: 1;
-    
-    .img{
+
+    .img {
+      border-radius: 50%;
+      // background-color:rgb(0,146,215);
+      
       width: 6.2vh;
     }
 
@@ -66,7 +69,6 @@ export default {
       .img {
         // background-color:rgba(@theme-blue, .3);
         box-shadow: inset 0 5px 10px rgba(@theme-blue, 0.5);
-        border-radius: 50%;
       }
       .title {
         color: @theme-blue;
